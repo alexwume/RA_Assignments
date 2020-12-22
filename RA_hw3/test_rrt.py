@@ -7,7 +7,7 @@ from rrt import RRT
 
 
 if __name__ == '__main__':
-    np.random.seed(41)
+    np.random.seed(7)
     rospy.init_node('rrt')
     fr = FrankaRobot()
 

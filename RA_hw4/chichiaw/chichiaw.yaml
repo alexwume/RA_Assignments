@@ -1,0 +1,14 @@
+yolo_model:
+
+  config_file:
+    name: chichiaw.cfg
+  weight_file:
+    name: chichiaw.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - Starbuck_coffee
+      - Hand_cream
+      - Orange
+      
